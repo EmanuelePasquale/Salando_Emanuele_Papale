@@ -1,0 +1,22 @@
+@import 'bootstrap';
+
+.card-custom {
+    height: 380px;
+    max-height: 380px;
+    width: 300px;
+}
+
+.card-custom:hover{
+    transition: all;
+    transform: scale(1.05, 1.05);
+}
+
+.compact {
+    max-width: 300px;
+    /* Larghezza massima del paragrafo */
+    overflow: hidden;
+    /* Nasconde il testo in eccesso */
+    white-space: nowrap;
+    /* Impedisce il ritorno a capo del testo */
+    text-overflow: ellipsis;
+}
